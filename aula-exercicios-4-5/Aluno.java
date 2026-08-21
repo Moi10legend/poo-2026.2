@@ -38,8 +38,8 @@ public class Aluno{
         return this.presenca;
     }
 
-    public void setPresenca(boolean presenca){
-        
+    public void setPresenca(boolean presenca, int indice){
+        this.presenca[indice] = presenca;
     }
 
 }

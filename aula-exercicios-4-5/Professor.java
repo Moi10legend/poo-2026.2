@@ -52,10 +52,10 @@ public class Professor{
         }
     }
 
-    public void Chamada(boolean[] presencasDoDias){
+    public void Chamada(boolean[] presencasDosDias){
         Aluno[] turma = sala.getTurma();
         for(int i = 0; i < turma.length; i++){
-            turma[i].pre 
+            turma[i].setPresenca(presencasDosDias[i], sala.getDiaDeAula());
         }
     }
 }
